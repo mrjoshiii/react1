@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+*
+{
+    margin : 0;
+    letter-spacing: 2px;
+    padding : 0 ;
+    box-sizing: border-box;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+body
+{
+   
+    background-color: black;
+    height : 100vh ;
+    width : 100% ;
+    display: flex ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.card
+{
+    /* border : 2px solid whitesmoke ; */
+    /* background-color: rgba(0,0,0,0.1); */
+    background-color: #d5d5d5;
+    height :70vh ;
+    width : 300px ;
+    color : black;
+    box-shadow: 0px 0px 15px 1px ;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+input
+{
+    border : 2px solid black ;
+    border-radius: 7px ;
+    width: inherit;
+    width : 100% ;
+    padding: 5px 30px ;
+    margin-top: 20px ;
+    text-align: center;
+}
+.info
+{
+    background-image: url('https://nordicapis.com/wp-content/uploads/5-Best-Free-and-Paid-Weather-APIs-2019-e1587582023501.png');
+    width: inherit;
+    background-position : bottom;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    height : inherit;
+    text-align: inherit;
+    align-items: center;
+}
+.location
+{
+    margin-top: 80px ;
+}
+.tempmin_max
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px ;
+}
+.h11
+{
+    margin-top: -10px ;
+    color : white;
+    animation: anime 1s infinite ease-in alternate-reverse;
+}
+@keyframes anime
+{
+    from{
+        /* background-color: black; */
+        color : white ;
+    }
+    to{
+        /* background-color: blue; */
+        color : yellow;
+    }
+    to{
+        color : yellow ;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
